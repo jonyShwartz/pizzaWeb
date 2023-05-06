@@ -1,0 +1,77 @@
+<head>
+
+    <img id="logo" src="logo.png">
+
+        <title>Pizza</title>
+        <link rel = "stylesheet" href = "index.css">
+        <body>
+    <!-- <h1>JONJON pizza</h1> -->
+    <div id="divback">
+    <img id = "echoes" src="echoesback.png">
+    <img id = "text" src="textback.png">
+    <img id = "ketchup" src="ketchupback.png">
+    <img id = "coke" src="cokeback.png">
+    <img id = "pizza" src="pizzaback.png">
+    <img id = "vegetavles" src="vegetavlesback.png">
+    </div>
+
+    <br>
+    <h2 id = "h2">which kind of dough</h2>
+<select id = "select">
+    <option>regular dough 50$</option>
+    <option>thin dough 45$</option>
+    <option>full dough 55$</option>
+</select>
+
+
+<h2 id = "h21">which pizza size</h2>
+<select id = "select1">
+    <option>large pizza 70$</option>
+    <option>extra large pizza 80$</option>
+    <option>personal pizza 20$</option>
+</select>
+
+<div>
+    <h2>Exltra</h2>
+    <span>olives</span>
+    <input type="checkbox"><br>
+    <span>onion</span>
+    <input type="checkbox"><br>
+    <span>tomato</span>
+    <input type="checkbox"><br>
+    <span>shampanion</span>
+    <input type="checkbox"><br>
+    <span>peper</span>
+    <input type="checkbox"><br>
+    <span>stam</span>
+    <input type="checkbox"><br>
+</div>
+<br>
+<!-- <path d="M0 0 C50 100 50 100 100 0 Z" style="fill: #3e150f; stroke: #3e150f;"></path> -->
+
+<div class="container">
+    <button id = "send" class="button" onclick="openPopup()">send</button>
+    <div class="popup" id="popup">
+        <img src="tick.png">
+        <h2>Thank You!</h2>
+        <p>your order has been sent</p>
+        <button type="ok" onclick="closePopup()">OK</button>
+    </div>
+</div>
+
+
+    <script src = "index.js"></script>
+
+    <script>
+        let popup = document.getElementById("popup");
+    function openPopup(){
+        popup.classList.add("open-popup");
+    }
+    function closePopup(){
+        popup.classList.remove("open-popup");
+    
+    }
+    </script>
+    
+        </body>
+</head>

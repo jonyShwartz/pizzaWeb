@@ -1,0 +1,109 @@
+body{
+    background: rgb(17,7,5);
+    background: linear-gradient(180deg, rgba(17,7,5,1) 0%, rgba(103,42,34,1) 23%, rgba(103,42,34,1) 41%, rgba(45,14,12,1) 67%);
+background-size: 100%; 
+text-align: center;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+#select{
+    color: blue;
+    font-size: 20px;
+}
+#h2{
+    color: brown;
+}
+#h21{
+color: red  ;
+}
+#select1{
+    color: blue;
+    font-size: 20px;
+
+}
+#logo{
+    height: 20%;
+    width: auto;
+    margin-top: -1%;
+margin-right: 75%;}
+#pizza{
+    /* margin-left: -13%; */
+    margin-top: 15%;
+}
+#divback{
+    position: relative;
+}
+#echoes {
+    position: absolute;
+    
+    top: -45%;
+    left: 20%;
+}
+#vegetavles{
+    position: absolute;
+    right: 56px;
+    top: 38%;
+}
+#coke{
+    position: absolute;
+    right: 280px;
+    top: 2%;
+}
+#pizza{
+    position: relative;
+}
+#ketchup{
+    position: absolute;
+    right: 390px;
+    top: 29%;
+}
+#text{
+    position: absolute;
+    right: 600px;
+}
+.popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+     top: 0; 
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0, 30px, 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top: 100%;
+    transform: translate(-50%,-50%) scale(1);
+}
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(red, green, blue, alpha);
+}
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(red, green, blue, alpha);
+
+}
